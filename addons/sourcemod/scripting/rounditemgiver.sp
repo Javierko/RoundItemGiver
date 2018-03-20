@@ -22,8 +22,6 @@ float g_fTimerSec;
 ConVar g_cvTimerThd;
 float g_fTimerThd;
 
-//int m_hMyWeapons;
-
 #pragma newdecls required
 
 public Plugin myinfo =
@@ -71,7 +69,7 @@ public void OnConVarChanged(ConVar convar, const char[] oldValue, const char[] n
 	}
 	else if(convar == g_cvTimerThd)
 	{
-		g_fTimerThd = StringToFloat(newValue);
+		g_fTimerThd = StringToFloat(newValue); 
 	}
 	else if(convar == g_cvTag)
 	{
