@@ -1,1 +1,1 @@
-<a href=>Alliedmodders link</a> 
+<a href=#>Alliedmodders link</a> 
